@@ -1,0 +1,103 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #121212;
+    color: #e0e0e0;
+    overflow: hidden; /* Prevents scrolling */
+}
+
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh; /* Ensures it takes the full viewport height */
+    width: 100vw; /* Ensures it takes the full viewport width */
+}
+
+header {
+    width: 100%;
+    background-color: #1f1f1f;
+}
+
+.logo {
+    width: 100%; /* Logo spans the full width of the container */
+}
+
+.main-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1; /* Takes up the remaining space between header and footer */
+    padding: 0 20px; /* Optional padding to ensure form is not too close to the edges */
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f1f1f;
+    padding: 40px;
+    border-radius: 12px;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.5);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+.login-box h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.login-box div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-box button {
+    background-color: #4285f4;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+    margin: 10px 0;
+    width: 100%;
+    max-width: 280px;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.login-box button:hover {
+    background-color: #357ae8;
+    transform: translateY(-2px);
+}
+
+.signup-button {
+    background-color: #34a853;
+}
+
+.signup-button:hover {
+    background-color: #2c8f43;
+    transform: translateY(-2px);
+}
+
+.login-box p {
+    margin-top: 20px;
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+footer {
+    width: 100%;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+    padding: 10px;
+    background-color: #1f1f1f;
+}

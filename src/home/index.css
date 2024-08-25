@@ -1,0 +1,85 @@
+.home-container {
+    display: flex;
+    height: 100vh;
+    background-color: #6b6b6b;
+}
+
+.main-content {
+    display: flex;
+    flex-direction: row;
+}
+
+.chatlist {
+    width: 300px; /* Adjust as needed */
+    background-color: #1f1f1f;
+    color: #fff;
+    padding: 10px;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.chat-window {
+    flex-grow: 1;
+    background-color: #121212;
+    color: #fff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+/* Define variables for dark and light themes */
+:root {
+    --bg-color-dark: #121212;
+    --text-color-dark: #e0e0e0;
+    --bg-color-light: #ffffff;
+    --text-color-light: #000000;
+}
+
+/* Apply theme to body based on class */
+body.dark {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+body.light {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
+/* Home Container */
+.home-container {
+    display: flex;
+    height: 100vh;
+}
+
+/* Button for Theme Toggle */
+.theme-toggle {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    background-color: #4285f4;
+    color: white;
+    border-radius: 5px;
+}
+
+/* Adjusting the appearance of Sidebar, ChatList, and ChatWindow */
+.sidebar,
+.chatlist,
+.chat-window {
+    background-color: var(--bg-color-dark);
+    color: var(--text-color-dark);
+}
+
+body.light .sidebar,
+body.light .chatlist,
+body.light .chat-window {
+    background-color: var(--bg-color-light);
+    color: var(--text-color-light);
+}
+
