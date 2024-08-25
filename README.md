@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+### About Project
+When someone opens this application, they first see a sign-up page with a Google sign-up button. This page has a simple, dark-themed design. The Google sign-up button doesn't actually authenticate users but instead redirects them to the home page and create account button has not functionality.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Once on the home page, they'll see a basic UI that looks like WhatsApp, with a sidebar, a list of chats, and a chat window. However, nothing in the interface is functional—users can't send messages, click on chat items, or navigate to different sections from the sidebar. It's just a visual mock-up, giving the appearance of a WhatsApp-like app without any real functionality.
 
-## Available Scripts
+### Local Setup and Running Instructions
+1. Download and Extract:
+Download the ZIP folder of the repository.
+Extract the contents to a location on your local machine.
 
-In the project directory, you can run:
+2. Navigate to Project Directory:
+Open a terminal.
+Navigate to the root directory of the extracted project folder.
 
-### `npm start`
+3. Install Dependencies:
+Run npm install in the terminal to install all necessary dependencies.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+4. Start Development Server:
+Run npm start to launch the React development server.
+The application should open in your browser at http://localhost:3000.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+5. View the Application:
+The app opens on the sign-up page with a Google sign-up button.
+After clicking, you’re redirected to a WhatsApp-like home page.
+Note: This is a visual prototype; interface elements are non-functional.
